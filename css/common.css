@@ -1,0 +1,106 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --blue-color: #2196f3;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --button-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+}
+
+/* Логотип */
+.nav.logo > span {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+
+  letter-spacing: 0.03em;
+  color: var(--blue-color);
+}
+
+.nav.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--black-color);
+}
+/* Строка навигации по сайту */
+.nav {
+  color: var(--secondary-text-color);
+}
+
+.nav.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.nav.link:hover,
+.nav.link:focus {
+  color: var(--blue-color);
+}
+
+.list {
+  list-style: none;
+}
+/* Телефон и эмэйл */
+.contact {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--blue-color);
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer .logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--white-color);
+}
+.footer .logo > span {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--blue-color);
+}
+.footer .adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+.footer .contact {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+}

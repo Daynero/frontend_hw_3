@@ -1,0 +1,84 @@
+/* Cекция ГЕРОЙ */
+.main.h1 {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  background-color: #2f303a;
+}
+
+.main.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
+
+/* Секция наши преимущества */
+/* .main.h2 {
+  /* Здесь когда то скроется заголовок */
+
+.main.h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.main.h3 > span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+}
+
+/* Секция чем мы занимаемся */
+.examples.h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* Секция наша команда */
+.our-team.h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.name .about {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
