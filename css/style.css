@@ -1,5 +1,15 @@
 /* Cекция ГЕРОЙ */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero .container {
+  height: 600px;
+}
+
 .main.h1 {
+  margin: 0px;
+  padding: 200px 0 0 0;
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
@@ -8,11 +18,11 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  background-color: #2f303a;
 }
 
 .main.button {
+  margin: 30px auto auto auto;
+
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -26,10 +36,21 @@
 }
 
 /* Секция наши преимущества */
-/* .main.h2 {
-  /* Здесь когда то скроется заголовок */
+.main.h2 {
+  display: none;
+}
+
+.advantages .container {
+  padding: 94px 15px 94px 15px;
+}
+
+.list-advantages:not(:last-child) {
+  margin-right: 30px;
+}
 
 .main.h3 {
+  margin: 0px;
+
   font-weight: bold;
   font-size: 14px;
   line-height: 1.2;
@@ -38,7 +59,12 @@
   color: var(--secondary-text-color);
 }
 
-.main.h3 > span {
+.list .list-item {
+  display: inline-block;
+  margin: 10px 0px 0px;
+  width: 270px;
+  height: 75px;
+
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -48,7 +74,21 @@
 }
 
 /* Секция чем мы занимаемся */
+.work .container {
+  padding: 0 15px 94px 15px;
+}
+
+.work .list {
+  margin: 50px auto auto;
+}
+
+.work-list:not(:last-child) {
+  margin-right: 30px;
+}
+
 .examples.h2 {
+  margin: 0;
+
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -57,7 +97,21 @@
   color: var(--secondary-text-color);
 }
 /* Секция наша команда */
+.team .container {
+  padding: 94px 15px 94px 15px;
+}
+
+.team .list {
+  margin: 50px 0 0 0;
+}
+
+.team .content:not(:last-child) {
+  margin-right: 30px;
+}
+
 .our-team.h2 {
+  margin: 0;
+
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -66,6 +120,8 @@
   color: var(--secondary-text-color);
 }
 .name {
+  margin: 30px auto 10px auto;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -74,7 +130,9 @@
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-.name .about {
+.about {
+  margin: 0 auto 30px auto;
+
   font-weight: normal;
   font-size: 16px;
   line-height: 1.2;
