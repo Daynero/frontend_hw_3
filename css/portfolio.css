@@ -1,4 +1,32 @@
 /* Cекция main */
+.hidden {
+  display: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+  width: 1170px;
+}
+
+.btn-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 94px;
+  list-style: none;
+}
+
+.list.card {
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.btn-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .main.button {
   font-style: normal;
   font-weight: 500;
@@ -17,6 +45,7 @@
   cursor: pointer;
 }
 .main.h2 {
+  margin: 0;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -25,11 +54,25 @@
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
 }
+
+.card-item:not(:nth-child(3n + 3)) {
+  margin-right: 30px;
+}
+
+.card-item:not(:nth-child(n + 7)) {
+  margin-bottom: 30px;
+}
+
 .about {
+  margin: 4px 0 0 0;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
 
   letter-spacing: 0.03em;
+}
+.info {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
