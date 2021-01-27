@@ -3,11 +3,11 @@
   background-color: #2f303a;
 }
 
-.hero .container {
+.hero__container {
   height: 600px;
 }
 
-.main.h1 {
+.hero__main {
   margin: 0px;
   padding: 200px 0 0 0;
   color: var(--white-color);
@@ -20,7 +20,7 @@
   text-transform: uppercase;
 }
 
-.main.button {
+.hero__button {
   margin: 30px auto auto auto;
   padding: 10px 32px;
 
@@ -39,19 +39,19 @@
 }
 
 /* Секция наши преимущества */
-.main.h2 {
+.advantages__main {
   display: none;
 }
 
-.advantages .container {
+.advantages__container {
   padding: 94px 15px 94px 15px;
 }
 
-.list-advantages:not(:last-child) {
+.advantages__list:not(:last-child) {
   margin-right: 30px;
 }
 
-.main.h3 {
+.advantages__h3 {
   margin: 0px;
 
   font-weight: bold;
@@ -62,7 +62,7 @@
   color: var(--secondary-text-color);
 }
 
-.list .list-item {
+.advantages__item--small {
   display: inline-block;
   margin: 10px 0px 0px;
   width: 270px;
@@ -77,19 +77,19 @@
 }
 
 /* Секция чем мы занимаемся */
-.work .container {
+.work__container {
   padding: 0 15px 94px 15px;
 }
 
-.work .list {
+.work__list {
   margin: 50px auto auto;
 }
 
-.work-list:not(:last-child) {
+.work__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.examples.h2 {
+.work__examples {
   margin: 0;
 
   font-weight: bold;
@@ -100,19 +100,19 @@
   color: var(--secondary-text-color);
 }
 /* Секция наша команда */
-.team .container {
+.team__container {
   padding: 94px 15px 94px 15px;
 }
 
-.team .list {
+.team__list {
   margin: 50px 0 0 0;
 }
 
-.team .content:not(:last-child) {
+.team__content:not(:last-child) {
   margin-right: 30px;
 }
 
-.our-team.h2 {
+.team__h2 {
   margin: 0;
 
   font-weight: bold;
@@ -122,7 +122,7 @@
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-.name {
+.team__name {
   margin: 30px auto 10px auto;
 
   font-weight: 500;
@@ -133,7 +133,7 @@
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-.about {
+.team__about {
   margin: 0 auto 30px auto;
 
   font-weight: normal;

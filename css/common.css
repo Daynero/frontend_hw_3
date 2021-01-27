@@ -32,7 +32,7 @@ img {
 }
 
 /* Логотип */
-.nav.logo > span {
+.nav__logo--blue {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -42,7 +42,7 @@ img {
   color: var(--blue-color);
 }
 
-.nav.logo {
+.nav__logo {
   margin: 0px 93px 0px 0px;
   padding: 24px 0px 25px;
   text-decoration: none;
@@ -58,7 +58,7 @@ img {
   color: var(--secondary-text-color);
 }
 
-.nav.link {
+.nav__link {
   display: inline-block;
   padding: 32px 0px 32px;
 
@@ -70,12 +70,12 @@ img {
   color: var(--secondary-text-color);
 }
 
-.nav.link:hover,
-.nav.link:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--blue-color);
 }
 
-.list .item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -86,7 +86,7 @@ img {
   list-style: none;
 }
 /* Телефон и эмэйл */
-.list-contact {
+.contact {
   align-items: center;
   margin-left: auto;
   padding: 0px;
@@ -94,11 +94,11 @@ img {
   list-style: none;
 }
 
-.list-contact .item:not(:last-child) {
+.contact__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contact {
+.contact__link {
   padding: 32px 0px;
   text-decoration: none;
   font-weight: 500;
@@ -108,8 +108,8 @@ img {
   color: var(--primary-text-color);
 }
 
-.contact:hover,
-.contact:focus {
+.contact__link:hover,
+.contact__link:focus {
   color: var(--blue-color);
 }
 
@@ -117,12 +117,12 @@ img {
 .footer {
   background-color: #2f303a;
 }
-.footer .container {
+.footer__container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer .logo {
+.footer__logo {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -130,14 +130,14 @@ img {
   line-height: 1.2;
   color: var(--white-color);
 }
-.footer .logo > span {
+.footer__logo--blue {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
   color: var(--blue-color);
 }
-.footer .adress {
+.footer__adress {
   margin-top: 20px;
 
   font-style: normal;
@@ -148,13 +148,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
-.adress .list {
+.footer__list {
   display: block;
 }
-.adress .content:not(:last-child) {
+.footer__content:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer .contact {
+.footer__contact {
   padding: 0;
   font-style: normal;
   font-weight: normal;

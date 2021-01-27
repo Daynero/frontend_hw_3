@@ -1,5 +1,5 @@
 /* Cекция main */
-.hidden {
+.portfolio__hidden {
   display: none;
 }
 
@@ -10,7 +10,7 @@
   width: 1170px;
 }
 
-.btn-list {
+.btn {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -18,16 +18,16 @@
   list-style: none;
 }
 
-.list.card {
+.card {
   margin-top: 50px;
   flex-wrap: wrap;
 }
 
-.btn-item:not(:last-child) {
+.btn__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.main.button {
+.btn__main {
   padding: 6px 22px;
 
   font-family: "Roboto", sans-serif;
@@ -43,13 +43,13 @@
   border: none;
   border-radius: 4px;
 }
-.main.button:hover,
-.main.button:focus {
+.btn__main:hover,
+.btn__main:focus {
   color: var(--white-color);
   background-color: var(--blue-color);
   cursor: pointer;
 }
-.main.h2 {
+.card__main {
   margin: 0;
   font-style: normal;
   font-weight: bold;
@@ -60,15 +60,15 @@
   color: var(--secondary-text-color);
 }
 
-.card-item:not(:nth-child(3n + 3)) {
+.card__item:not(:nth-child(3n + 3)) {
   margin-right: 30px;
 }
 
-.card-item:not(:nth-child(n + 7)) {
+.card__item:not(:nth-child(n + 7)) {
   margin-bottom: 30px;
 }
 
-.about {
+.card__about {
   margin: 4px 0 0 0;
   font-style: normal;
   font-weight: normal;
@@ -77,7 +77,7 @@
 
   letter-spacing: 0.03em;
 }
-.info {
+.card__info {
   padding-top: 20px;
   padding-bottom: 20px;
 }
